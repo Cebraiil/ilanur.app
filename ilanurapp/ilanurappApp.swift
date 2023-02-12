@@ -2,7 +2,7 @@
 //  ilanurappApp.swift
 //  ilanurapp
 //
-//  Created by Ayman on 9.02.2023.
+//  by Ayman on 9.02.2023.
 //
 
 import SwiftUI

@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3184EE2299607FB006CD7D7 /* ChapterName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3184EE1299607FB006CD7D7 /* ChapterName.swift */; };
+		E3184EE429960811006CD7D7 /* sura_names.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3184EE329960811006CD7D7 /* sura_names.ttf */; };
+		E32A4F05299612040084D225 /* VerseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32A4F04299612040084D225 /* VerseCard.swift */; };
+		E32A4F07299613190084D225 /* VerseTranslationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32A4F06299613190084D225 /* VerseTranslationCard.swift */; };
+		E33286672997DAA800270D55 /* QuranView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33286662997DAA800270D55 /* QuranView.swift */; };
+		E332866C2997DF8E00270D55 /* VerseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332866B2997DF8E00270D55 /* VerseView.swift */; };
+		E35AF9892994BB2600F0D322 /* quran.json in Resources */ = {isa = PBXBuildFile; fileRef = E35AF9882994BB2500F0D322 /* quran.json */; };
+		E35AF98B2994BBA100F0D322 /* ReadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF98A2994BBA100F0D322 /* ReadData.swift */; };
+		E35AF99329951FEE00F0D322 /* uthmanic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35AF99229951FEE00F0D322 /* uthmanic.ttf */; };
+		E35AF9962995204300F0D322 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF9952995204300F0D322 /* TestView.swift */; };
+		E35AF99B29952F9100F0D322 /* ChapterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF99A29952F9100F0D322 /* ChapterCard.swift */; };
+		E3A05D96299910A000A2F509 /* VerseHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A05D95299910A000A2F509 /* VerseHeader.swift */; };
 		E3F10DE72994B3AF00F7342F /* ilanurappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F10DE62994B3AF00F7342F /* ilanurappApp.swift */; };
 		E3F10DE92994B3AF00F7342F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F10DE82994B3AF00F7342F /* ContentView.swift */; };
 		E3F10DEB2994B3B100F7342F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F10DEA2994B3B100F7342F /* Assets.xcassets */; };
@@ -14,6 +26,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3184EE1299607FB006CD7D7 /* ChapterName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterName.swift; sourceTree = "<group>"; };
+		E3184EE329960811006CD7D7 /* sura_names.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sura_names.ttf; sourceTree = "<group>"; };
+		E32A4F04299612040084D225 /* VerseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseCard.swift; sourceTree = "<group>"; };
+		E32A4F06299613190084D225 /* VerseTranslationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseTranslationCard.swift; sourceTree = "<group>"; };
+		E33286662997DAA800270D55 /* QuranView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranView.swift; sourceTree = "<group>"; };
+		E332866B2997DF8E00270D55 /* VerseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseView.swift; sourceTree = "<group>"; };
+		E35AF9882994BB2500F0D322 /* quran.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quran.json; sourceTree = "<group>"; };
+		E35AF98A2994BBA100F0D322 /* ReadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadData.swift; sourceTree = "<group>"; };
+		E35AF99229951FEE00F0D322 /* uthmanic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = uthmanic.ttf; sourceTree = "<group>"; };
+		E35AF9942995200E00F0D322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E35AF9952995204300F0D322 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		E35AF99A29952F9100F0D322 /* ChapterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCard.swift; sourceTree = "<group>"; };
+		E3A05D95299910A000A2F509 /* VerseHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseHeader.swift; sourceTree = "<group>"; };
 		E3F10DE32994B3AF00F7342F /* ilanurapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ilanurapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F10DE62994B3AF00F7342F /* ilanurappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ilanurappApp.swift; sourceTree = "<group>"; };
 		E3F10DE82994B3AF00F7342F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +57,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E32C26F02997538100D40F09 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF9952995204300F0D322 /* TestView.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		E332866A2997DF6000270D55 /* Quran */ = {
+			isa = PBXGroup;
+			children = (
+				E3A05D9D299913AF00A2F509 /* json */,
+				E3A05D9C2999139B00A2F509 /* fonts */,
+				E3A05D9B2999139000A2F509 /* models */,
+				E3A05D982999136100A2F509 /* components */,
+				E3A05D972999135400A2F509 /* Views */,
+			);
+			path = Quran;
+			sourceTree = "<group>";
+		};
+		E3A05D972999135400A2F509 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E33286662997DAA800270D55 /* QuranView.swift */,
+				E332866B2997DF8E00270D55 /* VerseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E3A05D982999136100A2F509 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				E3A05D9A2999138300A2F509 /* chapter */,
+				E3A05D992999136B00A2F509 /* verse */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		E3A05D992999136B00A2F509 /* verse */ = {
+			isa = PBXGroup;
+			children = (
+				E3184EE1299607FB006CD7D7 /* ChapterName.swift */,
+				E32A4F04299612040084D225 /* VerseCard.swift */,
+				E32A4F06299613190084D225 /* VerseTranslationCard.swift */,
+				E3A05D95299910A000A2F509 /* VerseHeader.swift */,
+			);
+			path = verse;
+			sourceTree = "<group>";
+		};
+		E3A05D9A2999138300A2F509 /* chapter */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF99A29952F9100F0D322 /* ChapterCard.swift */,
+			);
+			path = chapter;
+			sourceTree = "<group>";
+		};
+		E3A05D9B2999139000A2F509 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF98A2994BBA100F0D322 /* ReadData.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E3A05D9C2999139B00A2F509 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF99229951FEE00F0D322 /* uthmanic.ttf */,
+				E3184EE329960811006CD7D7 /* sura_names.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		E3A05D9D299913AF00A2F509 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF9882994BB2500F0D322 /* quran.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
 		E3F10DDA2994B3AF00F7342F = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +158,11 @@
 		E3F10DE52994B3AF00F7342F /* ilanurapp */ = {
 			isa = PBXGroup;
 			children = (
+				E332866A2997DF6000270D55 /* Quran */,
+				E35AF9942995200E00F0D322 /* Info.plist */,
 				E3F10DE62994B3AF00F7342F /* ilanurappApp.swift */,
 				E3F10DE82994B3AF00F7342F /* ContentView.swift */,
+				E32C26F02997538100D40F09 /* Test */,
 				E3F10DEA2994B3B100F7342F /* Assets.xcassets */,
 				E3F10DEC2994B3B100F7342F /* Preview Content */,
 			);
@@ -125,7 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35AF9892994BB2600F0D322 /* quran.json in Resources */,
 				E3F10DEE2994B3B100F7342F /* Preview Assets.xcassets in Resources */,
+				E35AF99329951FEE00F0D322 /* uthmanic.ttf in Resources */,
+				E3184EE429960811006CD7D7 /* sura_names.ttf in Resources */,
 				E3F10DEB2994B3B100F7342F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +250,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35AF9962995204300F0D322 /* TestView.swift in Sources */,
+				E32A4F05299612040084D225 /* VerseCard.swift in Sources */,
+				E35AF99B29952F9100F0D322 /* ChapterCard.swift in Sources */,
 				E3F10DE92994B3AF00F7342F /* ContentView.swift in Sources */,
+				E332866C2997DF8E00270D55 /* VerseView.swift in Sources */,
+				E32A4F07299613190084D225 /* VerseTranslationCard.swift in Sources */,
+				E3A05D96299910A000A2F509 /* VerseHeader.swift in Sources */,
 				E3F10DE72994B3AF00F7342F /* ilanurappApp.swift in Sources */,
+				E33286672997DAA800270D55 /* QuranView.swift in Sources */,
+				E3184EE2299607FB006CD7D7 /* ChapterName.swift in Sources */,
+				E35AF98B2994BBA100F0D322 /* ReadData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +389,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ilanurapp/Preview Content\"";
+				DEVELOPMENT_TEAM = C5X9AX5PW5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ilanurapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,8 +419,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ilanurapp/Preview Content\"";
+				DEVELOPMENT_TEAM = C5X9AX5PW5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ilanurapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -2,20 +2,12 @@
 //  ContentView.swift
 //  ilanurapp
 //
-//  Created by Ayman on 9.02.2023.
-//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        QuranView(selectedChapter: Quran(id: 0, name: "", transliteration: "", type: "", total_verses: 0, verses: [Verse(id: 0, text: "", translation: "")]), showSheet: false)
     }
 }
 
@@ -24,3 +16,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+// .font(.custom("QCF2\(String(format: "%03d", info.v2_page))", size: 25))
+// .multilineTextAlignment(.trailing)
